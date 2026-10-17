@@ -1,4 +1,4 @@
-/* CSV state machine: quoted commas, escaped quotes, embedded CR/LF, BOM. */
+/* Shared CSV parser and Unicode-aware search. No displayed data is modified. */
 (function(root){
 'use strict';
 function parseCSV(text){
@@ -17,13 +17,67 @@ function parseCSV(text){
  const headers=rows.shift()||[];
  return rows.map((r,i)=>{if(r.length!==headers.length)throw Error(`Строка ${i+2}: неверное число полей`);return Object.fromEntries(headers.map((h,j)=>[h,r[j]]));});
 }
-const accent=s=>String(s??'').normalize('NFD').replace(/[\u0300\u0301\u0340\u0341]/gu,'').normalize('NFC').toLocaleLowerCase('ru');
-const word=s=>accent(s).replace(/[1Ӏӏ]/gu,'ӏ').replace(/[\p{Pd}()\[\]{}'’‘ʼʹ′＇`´]/gu,'');
-const meaning=s=>accent(s).replace(/ё/g,'е');
-const wordFields=['cyrillic orthography','latin orthography','variant'];
-const meaningFields=['meaning_1_rus','meaning_1_eng','meaning_2_rus','meaning_2_eng'];
-const prepare=rows=>rows.map((row,index)=>({row,index,words:wordFields.map(k=>word(row[k])).filter(Boolean),meanings:meaningFields.map(k=>meaning(row[k])).filter(Boolean)}));
-function search(index,query){query=query.trim();if(!query)return index;const w=word(query),m=meaning(query),groups=[[],[],[],[]];for(const item of index){let rank=-1;if(w){if(item.words.some(x=>x===w))rank=0;else if(item.words.some(x=>x.startsWith(w)))rank=1;else if(item.words.some(x=>x.includes(w)))rank=2;}if(rank<0&&m&&item.meanings.some(x=>x.includes(m)))rank=3;if(rank>=0)groups[rank].push(item);}return groups.flat();}
-root.KusurSearch={parseCSV,word,meaning,prepare,search};
+const DICT_FIELDS = [
+ {id:'cyrillic',label:'Кириллица',keys:['cyrillic orthography'],word:true,default:true},
+ {id:'latin',label:'Латиница',keys:['latin orthography'],word:true,default:true},
+ {id:'variant',label:'Варианты',keys:['variant'],word:true,default:true},
+ {id:'russian',label:'Значения RU',keys:['meaning_1_rus','meaning_2_rus'],default:true,ru:true},
+ {id:'english',label:'Значения EN',keys:['meaning_1_eng','meaning_2_eng'],default:true},
+ {id:'grammar',label:'Грамматика',keys:['pos','glossing label']},
+ {id:'forms',label:'Формы',keys:['forms']},
+ {id:'examples',label:'Примеры',keys:['example_1_cyr','example_1_rus','example_2_cyr','example_2_rus']},
+ {id:'comment',label:'Примечания',keys:['comment']},
+ {id:'literary',label:'Литературный вариант',keys:['в лит.варианте']},
+ {id:'origin',label:'Происхождение',keys:['происхождение']},
+ {id:'sources',label:'Источники',keys:['sources']}
+];
+const CORPUS_FIELDS = [
+ {id:'latin',label:'Латиница',keys:['latin'],default:true},
+ {id:'cyrillic',label:'Кириллица',keys:['cyrillic'],default:true},
+ {id:'translation',label:'Перевод',keys:['translation'],default:true,ru:true},
+ {id:'comment',label:'Примечания',keys:['comment'],default:true}
+];
+const fields = mode => mode==='dictionary'?DICT_FIELDS:CORPUS_FIELDS;
+// Keep й distinct from и even when other combining diacritics are ignored.
+function withoutMarks(value){return value.normalize('NFC').replace(/[йЙ]|[^йЙ]+/gu,part=>/^[йЙ]$/u.test(part)?part:part.normalize('NFD').replace(/\p{M}/gu,'')).normalize('NFC');}
+const withoutStress=value=>value.normalize('NFD').replace(/[\u0300\u0301\u0340\u0341]/gu,'').normalize('NFC');
+function plain(value,group,ignoreMarks=false){
+ let s=String(value??'').normalize('NFC').toLocaleLowerCase('ru');
+ s=ignoreMarks?withoutMarks(s):withoutStress(s);
+ if(group.ru)s=s.replace(/ё/g,'е');
+ if(group.word)s=s.replace(/[1Ӏӏ]/gu,'ӏ').replace(/[\p{Pd}()\[\]{}'’‘ʼʹ′＇`´]/gu,'');
+ else if(group.id==='cyrillic')s=s.replace(/[1Ӏӏ]/gu,'ӏ');
+ return s;
+}
+function prepare(rows,mode='dictionary'){
+ const spec=fields(mode);
+ return rows.map((row,index)=>({index,row,fileId:row.fileId,values:spec.map(group=>({id:group.id,word:!!group.word,items:group.keys.map(k=>String(row[k]??'')).filter(v=>v.length).map(value=>({plain:[plain(value,group,false),plain(value,group,true)],regex:[value.normalize('NFC'),withoutMarks(value)]}))}))}));
+}
+function search(index,query,{mode='dictionary',selected=fields(mode).filter(f=>f.default).map(f=>f.id),ignoreMarks=false,regex=false,fileId='*'}={}){
+ const allowed=new Set(selected),active=fields(mode).filter(f=>allowed.has(f.id));
+ const pool=index.filter(x=>fileId==='*'||x.fileId===fileId);
+ if(!active.length)return [];
+ if(query==='')return pool.map(x=>x.index);
+ const variant=ignoreMarks?1:0;
+ if(regex){
+  // Do not normalize regex syntax, escapes, groups or character classes.
+  const re=new RegExp(query.normalize('NFC'),'iu');
+  return pool.filter(x=>x.values.some(g=>allowed.has(g.id)&&g.items.some(v=>re.test(v.regex[variant])))).map(x=>x.index);
+ }
+ query=query.trim();if(!query)return pool.map(x=>x.index);
+ const queries=Object.fromEntries(active.map(g=>[g.id,plain(query,g,ignoreMarks)]));
+ const buckets=[[],[],[],[]];
+ for(const item of pool){let rank=4;
+  for(const group of item.values){const q=queries[group.id];if(!q)continue;
+   for(const value of group.items){const s=value.plain[variant];if(!s.includes(q))continue;
+    const score=mode==='dictionary'&&group.word?(s===q?0:s.startsWith(q)?1:2):3;
+    rank=Math.min(rank,score);
+   }
+  }
+  if(rank<4)buckets[rank].push(item.index);
+ }
+ return buckets.flat();
+}
+root.KusurSearch={parseCSV,fields,plain,withoutMarks,withoutStress,prepare,search};
 if(typeof module!=='undefined')module.exports=root.KusurSearch;
 })(globalThis);
