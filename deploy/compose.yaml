@@ -22,7 +22,7 @@ services:
     image: kusur-tsakorpus:local
     profiles: ["tools"]
     working_dir: /app/indexator
-    command: ["sh", "-c", "python indexator.py -y && python check_index.py"]
+    command: ["sh", "-c", "python indexator.py -y yes && python check_index.py"]
     depends_on:
       elasticsearch:
         condition: service_healthy
@@ -65,3 +65,4 @@ volumes:
   elastic-data:
   caddy-data:
   caddy-config:
+
