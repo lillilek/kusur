@@ -1,0 +1,14 @@
+{
+  "texts": 1,
+  "segments": 4,
+  "words": 68,
+  "words_with_morphemes": 50,
+  "documents": [
+    {
+      "id": "a01bc385-db60-4255-a01d-9611a82108ae",
+      "title": "kus_2026_zuhr_1962_text_Kistaman_2",
+      "segments": 4,
+      "words": 68
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "id": "a01bc385-db60-4255-a01d-9611a82108ae",
+  "title": "kus_2026_zuhr_1962_text_Kistaman_2",
+  "segments": 4,
+  "words": 68,
+  "words_with_morphemes": 50,
+  "morphemes": 108,
+  "morphemes_with_gloss": 105,
+  "translations": 4,
+  "notes": 4,
+  "notes_published": false,
+  "warnings": [
+    "ħúbluzuχsə: часть речи слова adj; основы noun; сохранены обе",
+    "ħúbluzkʼəsə: часть речи слова adj; основы noun; сохранены обе",
+    "cʼebégu: часть речи слова ptcl; основы adv; сохранены обе",
+    "dijáca: часть речи слова verb; основы pro; сохранены обе",
+    "gumámbe: часть речи слова verb; основы noun; сохранены обе",
+    "húsul: морфема 'hús' без русской глоссы",
+    "báču: морфема 'áču' без русской глоссы",
+    "báču: морфема 'áču' без русской глоссы"
+  ],
+  "audio_references": 1,
+  "source_sha256": "1cfb84ed75d1ab67a8f93ea2ef2ddda42fc48df8a0192da57196893407fef218"
+}

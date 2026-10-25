@@ -1,0 +1,29 @@
+name: Corpus checks
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  corpus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate import and updates
+        run: python -m unittest discover -s tests -v
+      - name: Configure test server
+        run: |
+          python -c "import secrets; from pathlib import Path; Path('deploy/.env').write_text('TSAKORPUS_SECRET_KEY=' + secrets.token_hex(32) + '\nCOOKIE_SECURE=false\n')"
+          sudo sysctl -w vm.max_map_count=262144
+      - name: Build, index and start actual Tsakorpus
+        run: sh deploy/update.sh
+      - name: Verify real searches
+        run: python tests/smoke_server.py
+      - name: Logs
+        if: always()
+        run: docker compose -f deploy/compose.yaml logs --no-color --tail 100

@@ -1,0 +1,307 @@
+{
+  "corpus_name": "kusur",
+  "input_format": "json",
+  "elastic_url": "http://elasticsearch:9200",
+  "elastic_user": "elastic",
+  "elastic_pwd": "",
+  "languages": [
+    "kusur",
+    "russian"
+  ],
+  "primary_languages": [
+    "kusur"
+  ],
+  "interface_languages": [
+    "ru",
+    "en"
+  ],
+  "default_locale": "ru",
+  "debug": false,
+  "query_log": false,
+  "media": false,
+  "video": false,
+  "simple_search_enabled": false,
+  "gloss_search_enabled": true,
+  "fulltext_search_enabled": true,
+  "ambiguous_analyses": false,
+  "all_language_search_enabled": false,
+  "fulltext_view_enabled": false,
+  "generate_dictionary": false,
+  "year_sort_enabled": false,
+  "sent_id_sort_enabled": true,
+  "wf_lowercase": true,
+  "lemma_lowercase": true,
+  "max_words_in_sentence": 100,
+  "max_context_expand": 10,
+  "max_distance_filter": 200000,
+  "max_docs_retrieve": 9999,
+  "query_timeout": 30,
+  "sample_size": 1,
+  "partitions": 0,
+  "viewable_meta": [
+    "title",
+    "text_id",
+    "annotation_status"
+  ],
+  "author_metafield": "",
+  "sentence_meta": [
+    "segment",
+    "note"
+  ],
+  "search_meta": {
+    "columns": [
+      [
+        {
+          "type": "input_text",
+          "name": "title",
+          "placeholder": "Название текста"
+        }
+      ]
+    ],
+    "stat_options": [
+      "title"
+    ]
+  },
+  "word_fields": [
+    "trans_ru",
+    "stem_pos"
+  ],
+  "word_table_fields": [
+    "trans_ru"
+  ],
+  "lemma_table_fields": [
+    "trans_ru"
+  ],
+  "transliterations": [
+    "original"
+  ],
+  "input_methods": [
+    "normal"
+  ],
+  "start_page_url": "https://lillilek.github.io/kusur/corpus.html",
+  "share_query_url": true,
+  "citation": "Кусурский корпус. Первая версия; разметка в работе.",
+  "lang_props": {
+    "kusur": {
+      "gr_fields_order": [
+        "pos",
+        "gloss_tag"
+      ],
+      "dictionary_categories": [],
+      "lexical_fields": [
+        "trans_ru"
+      ],
+      "other_fields_order": [
+        "trans_ru",
+        "stem_pos"
+      ],
+      "gramm_selection": {
+        "columns": [
+          [
+            {
+              "type": "header",
+              "value": "Части речи"
+            },
+            {
+              "type": "gramm",
+              "value": "adj",
+              "category": "pos",
+              "tooltip": "adj"
+            },
+            {
+              "type": "gramm",
+              "value": "adv",
+              "category": "pos",
+              "tooltip": "adv"
+            },
+            {
+              "type": "gramm",
+              "value": "noun",
+              "category": "pos",
+              "tooltip": "noun"
+            },
+            {
+              "type": "gramm",
+              "value": "num",
+              "category": "pos",
+              "tooltip": "num"
+            },
+            {
+              "type": "gramm",
+              "value": "pn",
+              "category": "pos",
+              "tooltip": "pn"
+            },
+            {
+              "type": "gramm",
+              "value": "pro",
+              "category": "pos",
+              "tooltip": "pro"
+            },
+            {
+              "type": "gramm",
+              "value": "ptcl",
+              "category": "pos",
+              "tooltip": "ptcl"
+            },
+            {
+              "type": "gramm",
+              "value": "verb",
+              "category": "pos",
+              "tooltip": "verb"
+            }
+          ],
+          [
+            {
+              "type": "header",
+              "value": "Пометы исходной разметки"
+            },
+            {
+              "type": "gramm",
+              "value": "ADD",
+              "category": "gloss_tag",
+              "tooltip": "ADD"
+            },
+            {
+              "type": "gramm",
+              "value": "ANTER",
+              "category": "gloss_tag",
+              "tooltip": "ANTER"
+            },
+            {
+              "type": "gramm",
+              "value": "AOR",
+              "category": "gloss_tag",
+              "tooltip": "AOR"
+            },
+            {
+              "type": "gramm",
+              "value": "APUD",
+              "category": "gloss_tag",
+              "tooltip": "APUD"
+            },
+            {
+              "type": "gramm",
+              "value": "CARD",
+              "category": "gloss_tag",
+              "tooltip": "CARD"
+            },
+            {
+              "type": "gramm",
+              "value": "CVB.PFV",
+              "category": "gloss_tag",
+              "tooltip": "CVB.PFV"
+            },
+            {
+              "type": "gramm",
+              "value": "EL",
+              "category": "gloss_tag",
+              "tooltip": "EL"
+            },
+            {
+              "type": "gramm",
+              "value": "EMPH",
+              "category": "gloss_tag",
+              "tooltip": "EMPH"
+            },
+            {
+              "type": "gramm",
+              "value": "F",
+              "category": "gloss_tag",
+              "tooltip": "F"
+            },
+            {
+              "type": "gramm",
+              "value": "GEN",
+              "category": "gloss_tag",
+              "tooltip": "GEN"
+            },
+            {
+              "type": "gramm",
+              "value": "IN",
+              "category": "gloss_tag",
+              "tooltip": "IN"
+            },
+            {
+              "type": "gramm",
+              "value": "LAT",
+              "category": "gloss_tag",
+              "tooltip": "LAT"
+            },
+            {
+              "type": "gramm",
+              "value": "N",
+              "category": "gloss_tag",
+              "tooltip": "N"
+            },
+            {
+              "type": "gramm",
+              "value": "N.стать.CVB.PFV",
+              "category": "gloss_tag",
+              "tooltip": "N.стать.CVB.PFV"
+            },
+            {
+              "type": "gramm",
+              "value": "OBL",
+              "category": "gloss_tag",
+              "tooltip": "OBL"
+            },
+            {
+              "type": "gramm",
+              "value": "OBL(ERG)",
+              "category": "gloss_tag",
+              "tooltip": "OBL(ERG)"
+            },
+            {
+              "type": "gramm",
+              "value": "OBL(GEN)",
+              "category": "gloss_tag",
+              "tooltip": "OBL(GEN)"
+            },
+            {
+              "type": "gramm",
+              "value": "OBL.PL",
+              "category": "gloss_tag",
+              "tooltip": "OBL.PL"
+            },
+            {
+              "type": "gramm",
+              "value": "PFV",
+              "category": "gloss_tag",
+              "tooltip": "PFV"
+            },
+            {
+              "type": "gramm",
+              "value": "PL",
+              "category": "gloss_tag",
+              "tooltip": "PL"
+            },
+            {
+              "type": "gramm",
+              "value": "PTCP.IPFV",
+              "category": "gloss_tag",
+              "tooltip": "PTCP.IPFV"
+            },
+            {
+              "type": "gramm",
+              "value": "PTCP.PFV",
+              "category": "gloss_tag",
+              "tooltip": "PTCP.PFV"
+            },
+            {
+              "type": "gramm",
+              "value": "SUP",
+              "category": "gloss_tag",
+              "tooltip": "SUP"
+            }
+          ]
+        ]
+      }
+    },
+    "russian": {
+      "gr_fields_order": [],
+      "dictionary_categories": [],
+      "lexical_fields": []
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{$CORPUS_DOMAIN} {
+    encode gzip
+    @admin path /config /config/*
+    respond @admin 404
+    reverse_proxy web:7342
+}
