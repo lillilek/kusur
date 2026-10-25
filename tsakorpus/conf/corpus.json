@@ -37,7 +37,7 @@
   "max_docs_retrieve": 9999,
   "query_timeout": 30,
   "sample_size": 1,
-  "partitions": 1,
+  "partitions": 0,
   "viewable_meta": [
     "title",
     "text_id",
