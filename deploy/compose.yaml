@@ -1,0 +1,67 @@
+name: kusur-corpus
+services:
+  elasticsearch:
+    image: docker.elastic.co/elasticsearch/elasticsearch:9.1.10
+    environment:
+      discovery.type: single-node
+      xpack.security.enabled: "false"
+      ES_JAVA_OPTS: -Xms1g -Xmx1g
+    volumes:
+      - elastic-data:/usr/share/elasticsearch/data
+    mem_limit: 2g
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "curl -fsS 'http://localhost:9200/_cluster/health?wait_for_status=yellow&timeout=5s' >/dev/null"]
+      interval: 10s
+      timeout: 8s
+      retries: 30
+  indexer:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: kusur-tsakorpus:local
+    profiles: ["tools"]
+    working_dir: /app/indexator
+    command: ["sh", "-c", "python indexator.py -y && python check_index.py"]
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+  web:
+    build:
+      context: ..
+      dockerfile: deploy/Dockerfile
+    image: kusur-tsakorpus:local
+    environment:
+      TSAKORPUS_SECRET_KEY: ${TSAKORPUS_SECRET_KEY:?Create deploy/.env first}
+      COOKIE_SECURE: ${COOKIE_SECURE:-true}
+    ports:
+      - "127.0.0.1:7342:7342"
+    restart: unless-stopped
+    depends_on:
+      elasticsearch:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:7342/healthz', timeout=5)"]
+      interval: 15s
+      timeout: 8s
+      retries: 10
+  proxy:
+    image: caddy:2.10.2-alpine
+    profiles: ["public"]
+    environment:
+      CORPUS_DOMAIN: ${CORPUS_DOMAIN:-localhost}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile:ro
+      - caddy-data:/data
+      - caddy-config:/config
+    restart: unless-stopped
+    depends_on:
+      web:
+        condition: service_healthy
+volumes:
+  elastic-data:
+  caddy-data:
+  caddy-config:

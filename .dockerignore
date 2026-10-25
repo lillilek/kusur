@@ -1,0 +1,6 @@
+.git
+.private
+**/__pycache__
+deploy/.env
+deploy/backups
+node_modules

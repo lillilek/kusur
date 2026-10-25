@@ -1,0 +1,8 @@
+.private/
+__pycache__/
+*.pyc
+.venv/
+deploy/.env
+deploy/backups/
+playwright-report/
+test-results/
