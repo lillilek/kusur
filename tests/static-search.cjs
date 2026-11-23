@@ -1,0 +1,35 @@
+const assert=require('node:assert/strict');
+global.KusurSearch=require('../assets/search.js');
+const {search,spans}=require('../assets/static-search.js');
+const opts={q:'',fields:['w','s','l','f','g','p','r'],advanced:{}};
+assert.deepEqual(spans('baʕá','w','baʕa',opts),[[0,4]]);
+assert.deepEqual(spans('b-aʕá','w','baʕa',opts),[[0,5]]);
+assert.deepEqual(spans('Ӏá','w','1a',opts),[[0,2]]);
+assert.deepEqual(spans('ёлка','r','елка',opts),[[0,4]]);
+assert.deepEqual(spans('šá','w','sa',{...opts,marks:true}),[[0,2]]);
+assert.equal(spans('й','w','и',{...opts,marks:true}),null);
+assert.equal(spans('PL.OBL','g','PL',{...opts,exact:true}),null);
+assert.deepEqual(spans('-PL','g','PL',{...opts,exact:true}),[[1,3]]);
+assert.deepEqual(spans('á','w','^',{...opts,regex:true}),[]);
+assert.throws(()=>spans('x','w','[',{...opts,regex:true}));
+const m=(f,g,l='root')=>({f,g,l,entry:''});
+const doc={id:'one',textId:'T',s:'a , b',r:'перевод',w:[
+ {f:'a',p:'n',punct:false,a:[[m('a','A'),m('-x','X')],[m('a','B'),m('-y','Y')]]},
+ {f:',',p:'',punct:true,a:[]},{f:'b',p:'v',punct:false,a:[[m('b','C','second')]]}]};
+assert.equal(search([doc],opts).length,1);
+assert.equal(search([doc],{...opts,fields:[]}).length,0);
+assert.equal(search([doc],{...opts,advanced:{aw:'a',af:'x',ag:'B'}}).length,0,'cannot mix alternative analyses');
+assert.equal(search([doc],{...opts,advanced:{aw:'a',ag:'A * X',second:'second',lo:0,hi:0}}).length,1,'punctuation does not count');
+assert.equal(search([doc],{...opts,advanced:{aw:'b',second:'a',lo:0,hi:0}}).length,0);
+assert.equal(search([doc],{...opts,advanced:{aw:'b',second:'a',lo:0,hi:0,free:true}}).length,1);
+assert.equal(search([doc],{...opts,advanced:{aw:'a',second:'second',lo:0,hi:0,role:'exclude'}}).length,0);
+assert.equal(search([doc],{...opts,advanced:{aw:'a',al:'!root'}}).length,0);
+assert.equal(search([doc],{...opts,q:'Y',fields:['g']})[0][1]['g0.1.1'].length,1);
+assert.throws(()=>search([doc],{...opts,advanced:{lo:2,hi:1}}));
+const fallback=structuredClone(doc);fallback.w[0].p='';fallback.w[0].a[0][0].p='noun';
+assert.equal(search([fallback],{...opts,q:'noun',fields:['p']}).length,1);
+assert.equal(search([fallback],{...opts,advanced:{ap:'noun'}}).length,1);
+global.window=global;require('../assets/corpus-render.js');
+const copied=CorpusRender.plain(doc);assert(copied.includes('A-X / B-Y'),'copied glosses retain explicit boundaries');
+assert(CorpusRender.article(fallback,{'p0.0.0':[[0,4]]}).includes('<mark>noun</mark>'));
+console.log('PASS: normalization offsets, regex, exact gloss, alternatives, sequences, distance, negation');

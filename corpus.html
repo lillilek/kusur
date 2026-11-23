@@ -1,46 +1,27 @@
 <!doctype html>
-<html lang="ru">
-<head>
-  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="Глоссированный корпус кусурского диалекта аварского языка на платформе Tsakorpus">
-  <title>Кусурский диалект · Корпус</title>
-  <link rel="stylesheet" href="assets/style.css?v=20261025">
-  <link rel="stylesheet" href="assets/corpus.css?v=20261025">
-  <script defer src="assets/corpus.js?v=20261025"></script>
-</head>
-<body>
-<header id="site-header"><div class="header-inner"><div class="brand-row">
-  <div><p class="eyebrow">Аварский язык · словарь и корпус</p><h1>Кусурский диалект</h1></div>
-  <nav aria-label="Разделы сайта"><a href="index.html">Словарь</a><a href="texts.html">Тексты</a><a href="corpus.html" aria-current="page">Корпус</a></nav>
-</div></div></header>
-<main class="corpus-home">
-  <section class="corpus-intro">
-    <p class="eyebrow">Глоссированные тексты · Tsakorpus</p>
-    <h2>Кусурский корпус</h2>
-    <p>Тексты с разбором на морфемы, глоссами и русским переводом. Корпус пополняется по мере разметки материалов в FieldWorks.</p>
-    <div class="availability" role="status" aria-live="polite">
-      <strong id="availability-title">Поисковый сервер готовится к запуску</strong>
-      <p id="availability-text">Первый текст подготовлен для Tsakorpus. Поиск станет доступен после подключения сервера.</p>
-      <a id="open-corpus" class="corpus-button" hidden>Открыть поиск в Tsakorpus →</a>
-    </div>
-    <noscript>Для отображения актуального состояния подключения включите JavaScript. <a href="texts.html">Тексты и переводы</a> доступны в отдельном разделе.</noscript>
-  </section>
-  <section aria-labelledby="contents-title">
-    <h3 id="contents-title">Материалы первой версии</h3>
-    <p id="corpus-stats">Загрузка состава корпуса…</p>
-    <ul id="corpus-documents"></ul>
-    <p class="corpus-muted">Разметка частичная: некоторые слова ещё не разобраны, а отдельные морфемы не имеют глоссы. Аудио пока не подключено.</p>
-  </section>
-  <section aria-labelledby="search-title">
-    <h3 id="search-title">Что можно будет искать</h3>
-    <div class="corpus-features">
-      <article><h4>Слова и основы</h4><p>Словоформы в тексте и словарные формы основ из FieldWorks.</p></article>
-      <article><h4>Морфемы и глоссы</h4><p>Грамматические пометы, сочетания морфем и части речи.</p></article>
-      <article><h4>Контексты и переводы</h4><p>Предложения с русским переводом и соседними фрагментами текста.</p></article>
-    </div>
-  </section>
-  <p>Ищете все опубликованные транскрипции? Они находятся в разделе <a href="texts.html">«Тексты»</a>.</p>
-</main>
-<footer>Кусурский диалект аварского языка · <a href="index.html">Словарь</a> · <a href="texts.html">Тексты</a> · <a href="corpus.html">Корпус</a></footer>
-</body>
-</html>
+<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Глоссированный корпус кусурского диалекта аварского языка"><title>Кусурский диалект · Корпус</title>
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/static-corpus.css">
+<script defer src="assets/site-ui.js"></script><script defer src="assets/corpus-render.js"></script><script defer src="assets/static-corpus.js"></script></head>
+<body><header id="site-header"><div class="header-inner"><div id="brand"></div>
+<div class="search-row"><label class="sr-only" for="query">Поиск в корпусе</label><input id="query" type="search" placeholder="Словоформа, лемма, глосса или перевод" spellcheck="false"><button id="clear" type="button">Очистить</button></div>
+<div class="filter-row"><span class="filter-title">Искать в:</span><div id="fields" class="field-options" role="group" aria-label="Поля поиска"></div><button class="small" id="all">Все</button><button class="small" id="none">Снять все</button></div>
+<div class="settings-row"><div class="settings"><label><input type="checkbox" id="marks"> Не учитывать диакритику</label><label><input type="checkbox" id="regex"> Регулярное выражение</label><label><input type="checkbox" id="exact"> Целая глосса</label></div><label class="scope"><span class="sr-only">Фильтр по тексту</span><select id="scope"><option value="">Все тексты</option></select></label></div>
+<div class="status-row"><output id="status" aria-live="polite">Загрузка…</output><a href="glossary.html">Список глосс</a></div></div></header>
+<main><noscript>Для корпуса и поиска включите JavaScript.</noscript><div class="page-intro"><h2>Корпус</h2><p id="data-summary"></p></div>
+<div id="error" role="alert" hidden></div><p id="entry-filter" hidden></p>
+<div class="panel"><details><summary>Отображение и выгрузка</summary>
+<label><input id="formsOn" type="checkbox" checked>Морфемы</label><label><input id="glossOn" type="checkbox" checked>Глоссы</label><label><input id="transOn" type="checkbox" checked>Перевод</label><label><input id="sentenceOn" type="checkbox" checked>Строка предложения</label>
+<label>Вид <select id="mode"><option value="interlinear">Интерлинеар</option><option value="kwic">KWIC</option></select></label>
+<label><input type="checkbox" id="savedOnly">Только подборка</label><button id="share">Скопировать ссылку на запрос</button><button id="download">Скачать выдачу TSV</button>
+<p class="corpus-notice">Подборка хранится только в этом браузере. Ссылка на запрос не переносит её на другое устройство.</p></details>
+<details><summary>Сочетания слов и морфем</summary>
+<p>Условия первого слова выполняются совместно в одном варианте разбора. Расстояние — число слов между совпадениями; пунктуация не учитывается.</p>
+<div class="advanced-grid"><label>Словоформа<input id="aw"></label><label>Лемма<input id="al"></label><label>Часть речи<input id="ap"></label><label>Форма морфемы<input id="af"></label><label>Глоссы по порядку<input id="ag" placeholder="N * AOR"></label><label>Второе слово или лемма<input id="second"></label><label>В переводе также есть<input id="translation"></label></div>
+<small>Глоссы разделяйте пробелами; * пропускает любое число морфем. В условиях | разделяет варианты, ! исключает значение. Условия здесь — целые значения, без регулярных выражений.</small>
+<label>Расстояние от<input id="lo" type="number" min="0" max="10000" value="0"></label><label>до<input id="hi" type="number" min="0" max="10000" value="0"></label>
+<label>Порядок<select id="order"><option value="forward">Второе следует за первым</option><option value="any">Любой порядок</option></select></label><label>Второе слово<select id="role"><option value="required">Обязательно</option><option value="optional">Факультативно</option><option value="exclude">Исключить</option></select></label></details>
+<details><summary>Как читать и искать</summary><p>Под словоформой показаны морфемы и выровненные глоссы. ? означает пропуск в экспорте. Дефисы и знаки = сохраняются из исходной формы; отсутствующие границы не восстанавливаются. Разборы показаны отдельными вариантами. Раскройте «Леммы и часть речи», чтобы перейти к словарной статье.</p>
+<p>Обычный поиск использует правила словаря: игнорирует регистр и ударение, для форм — дефисы, скобки и апострофы, 1 = Ӏ = ӏ; в переводе ё = е. Игнорирование диакритики сохраняет различие й / и. В режиме регулярных выражений вводите шаблон без /…/: ^ — начало, $ — конец, | — альтернативы. Для кириллицы используйте границы через \p{L}, а не \b. Нулевая длина совпадения находит пример без цветного фрагмента. «Целая глосса» ищет всё обозначение одной морфемы без крайних - и =.</p>
+<p>По умолчанию видны все тексты. «Контекст» открывает полный текст без условий поиска. Публикуются формы, разборы и свободный перевод; рабочие заметки из XML остаются в локальных исходниках.</p></details></div>
+<p id="toast" class="toast" role="status"></p><section id="list" aria-label="Примеры корпуса"></section><button id="more" hidden>Показать ещё</button></main><footer></footer></body></html>

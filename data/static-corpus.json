@@ -1,0 +1,5384 @@
+{
+  "version": 1,
+  "texts": [
+    {
+      "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2",
+      "title": "kus_2026_hsjn_1958_text_High_voltage",
+      "sentences": [
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-1",
+          "n": "1",
+          "w": [
+            {
+              "f": "ʁab",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "ʁa",
+                    "g": "этот1",
+                    "l": "ʁa",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "baʕá",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "aʕ",
+                    "g": "быть",
+                    "l": "áʕ",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-á",
+                    "g": "AOR",
+                    "l": "-á",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "sundúl",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "sun",
+                    "g": "что.OBL",
+                    "l": "sun",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-d",
+                    "g": "OBL",
+                    "l": "-d",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-úl",
+                    "g": "GEN",
+                    "l": "-úl",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "son",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "son",
+                    "g": "год",
+                    "l": "son",
+                    "p": "noun",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-558e76a4ab20115a97"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "azáralda",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "azár",
+                    "g": "тысяча",
+                    "l": "azár",
+                    "p": "num",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-al",
+                    "g": "OBL",
+                    "l": "-as",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-da",
+                    "g": "LOC",
+                    "l": "-da",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "ičʼnusójalda",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "ičʼ",
+                    "g": "девять",
+                    "l": "ičʼ",
+                    "p": "num",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "nus",
+                    "g": "сто",
+                    "l": "nus",
+                    "p": "num",
+                    "type": "stem",
+                    "homograph": "2",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ójal",
+                    "g": "OBL",
+                    "l": "-al",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-da",
+                    "g": "LOC",
+                    "l": "-da",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "unqʼójalda",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "unqʼ",
+                    "g": "восемьдесят",
+                    "l": "unqʼ",
+                    "p": "num",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ójal",
+                    "g": "OBL",
+                    "l": "-al",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-da",
+                    "g": "LOC",
+                    "l": "-da",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "incʼíli",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "incʼí",
+                    "g": "десять",
+                    "l": "ájncʼ",
+                    "p": "num",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-li",
+                    "g": "TEEN",
+                    "l": "-la",
+                    "p": "числительное",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "misʼábileb",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "misʼ",
+                    "g": "восемь",
+                    "l": "misʼ",
+                    "p": "num",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ábile",
+                    "g": "ORD",
+                    "l": "-ábile",
+                    "p": "num>num",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "son",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "son",
+                    "g": "год",
+                    "l": "son",
+                    "p": "noun",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-558e76a4ab20115a97"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Это был тысяча девятьсот девяносто восьмой год.",
+          "translationLang": "ru",
+          "s": "ʁab baʕá sundúl son azáralda ičʼnusójalda unqʼójalda incʼíli misʼábileb son ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-2",
+          "n": "2",
+          "w": [
+            {
+              "f": "kánsigi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "kánsi",
+                    "g": "свет",
+                    "l": "kánsi",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "únu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "ún",
+                    "g": "идти",
+                    "l": "ín",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "χútʼulaʕa",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "χútʼ",
+                    "g": "оставаться",
+                    "l": "χútʼ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=laʕa",
+                    "g": "=PL.быть",
+                    "l": "=laʕa",
+                    "p": "aux",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "niž",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "niž",
+                    "g": "мы",
+                    "l": "niž",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-f33d381d84a23cb10b"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "kánsi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "kánsi",
+                    "g": "свет",
+                    "l": "kánsi",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "héčʼugun",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "héčʼu",
+                    "g": "COP.NEG",
+                    "l": "héčʼu",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-gun",
+                    "g": "-CVB1",
+                    "l": "-gun",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Света не стало, мы остались без света.",
+          "translationLang": "ru",
+          "s": "kánsigi únu χútʼulaʕa niž kánsi héčʼugun ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3",
+          "n": "3",
+          "w": [
+            {
+              "f": "ínzi",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "ín",
+                    "g": "идти",
+                    "l": "ín",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-f8fb5b95f2430caac2"
+                  },
+                  {
+                    "f": "-zi",
+                    "g": "INF",
+                    "l": "-zi",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "adámgi",
+              "p": "",
+              "a": [
+                [
+                  {
+                    "f": "adám",
+                    "g": "человек",
+                    "l": "ʕadám",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "gúru",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "gúru",
+                    "g": "EXIST.NEG",
+                    "l": "gúru",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "nížgu",
+              "p": "",
+              "a": [
+                [
+                  {
+                    "f": "níž",
+                    "g": "мы",
+                    "l": "niž",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-f33d381d84a23cb10b"
+                  },
+                  {
+                    "f": "=gu",
+                    "g": "=EMPH",
+                    "l": "=gu",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "róstul",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "rós",
+                    "g": "село",
+                    "l": "rósu",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-7b684cce0b45a20440"
+                  },
+                  {
+                    "f": "-t",
+                    "g": "OBL",
+                    "l": "-d",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ul",
+                    "g": "GEN",
+                    "l": "-úl",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "co",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "co",
+                    "g": "один",
+                    "l": "co",
+                    "p": "num",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-34d50f77e9a33afe2d"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "...",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "áncʼgu",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "áncʼ",
+                    "g": "десять",
+                    "l": "ájncʼ",
+                    "p": "num",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-99f0a19cc25c6f52b2"
+                  },
+                  {
+                    "f": "-gu",
+                    "g": "CARD",
+                    "l": "-gu",
+                    "p": "num:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "incʼílʲa",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "incʼí",
+                    "g": "десять",
+                    "l": "ájncʼ",
+                    "p": "num",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-lʲa",
+                    "g": "TEEN",
+                    "l": "-la",
+                    "p": "числительное",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "šúgu",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "šú",
+                    "g": "пять",
+                    "l": "šú",
+                    "p": "num",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-gu",
+                    "g": "CARD",
+                    "l": "-gu",
+                    "p": "num:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "qʼo",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "qʼo",
+                    "g": "день",
+                    "l": "qʼo",
+                    "p": "noun",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-64e5be3d2edb083d95"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "béčču",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "éč",
+                    "g": "стать",
+                    "l": "éh",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ču",
+                    "g": "AOR.NEG",
+                    "l": "-čʼu",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "kánsi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "kánsi",
+                    "g": "свет",
+                    "l": "kánsi",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "niž",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "niž",
+                    "g": "мы",
+                    "l": "niž",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-f33d381d84a23cb10b"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "áral",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "á",
+                    "g": "идти",
+                    "l": "ín",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ra",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-l",
+                    "g": "PL",
+                    "l": "-l",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "kánsi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "kánsi",
+                    "g": "свет",
+                    "l": "kánsi",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "buzi",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "u",
+                    "g": "делать",
+                    "l": "u",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "2",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-zi",
+                    "g": "INF",
+                    "l": "-zi",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "dúngi",
+              "p": "",
+              "a": [
+                [
+                  {
+                    "f": "dún",
+                    "g": "я",
+                    "l": "dun",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-e43b908b2735c8ac2f"
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "cadáχ",
+              "p": "adv",
+              "a": [
+                [
+                  {
+                    "f": "cadáχ",
+                    "g": "вместе",
+                    "l": "cadáχ",
+                    "p": "adv",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-d8def578493583dd17"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dir",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "di",
+                    "g": "я",
+                    "l": "dun",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-e43b908b2735c8ac2f"
+                  },
+                  {
+                    "f": "-r",
+                    "g": "GEN",
+                    "l": "-úl",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "χudúliw",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "χudúli",
+                    "g": "племянник",
+                    "l": "χudúli",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-4b3097eee594d894c7"
+                  },
+                  {
+                    "f": "-w",
+                    "g": "M",
+                    "l": "-w",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "qʼasúmgi",
+              "p": "",
+              "a": [
+                [
+                  {
+                    "f": "qʼasúm",
+                    "g": "Касум",
+                    "l": "qʼasúm",
+                    "p": "pn",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "nurulláħgi",
+              "p": "",
+              "a": [
+                [
+                  {
+                    "f": "nurulláħ",
+                    "g": "Нурулла",
+                    "l": "nurulláħ",
+                    "p": "pn",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "anwárgi",
+              "p": "",
+              "a": [
+                [
+                  {
+                    "f": "anwár",
+                    "g": "Анвар",
+                    "l": "anwár",
+                    "p": "pn",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Некому было идти: (обычно) сами сельчане (чинили провода), 10-15 дней без света были, потом пошли делать свет: я, со мной племянник Касум, Нурулла, Анвар.",
+          "translationLang": "ru",
+          "s": "ínzi adámgi gúru , nížgu róstul , co ... áncʼgu incʼílʲa šúgu qʼo béčču kánsi , niž áral kánsi buzi , dúngi cadáχ dir χudúliw qʼasúmgi nurulláħgi anwárgi ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-4",
+          "n": "4",
+          "w": [
+            {
+              "f": "kánsi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "kánsi",
+                    "g": "свет",
+                    "l": "kánsi",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "buzi",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "u",
+                    "g": "делать",
+                    "l": "u",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "2",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-zi",
+                    "g": "INF",
+                    "l": "-zi",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "lérukʼun",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "l-",
+                    "g": "PL",
+                    "l": "l-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "é",
+                    "g": "приходить",
+                    "l": "éh",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ru",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-kʼun",
+                    "g": "-CVB1",
+                    "l": "-gun",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "nižéda",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "niž",
+                    "g": "мы",
+                    "l": "niž",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-f33d381d84a23cb10b"
+                  },
+                  {
+                    "f": "-é",
+                    "g": "OBL",
+                    "l": "-o",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-da",
+                    "g": "LOC",
+                    "l": "-da",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "bátə",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "át",
+                    "g": "находить",
+                    "l": "át",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ə",
+                    "g": "?",
+                    "l": "",
+                    "p": "",
+                    "type": "",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "núħi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "núħ",
+                    "g": "дорога",
+                    "l": "núħ",
+                    "p": "noun",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-d716b0f90fd471c546"
+                  },
+                  {
+                    "f": "-i",
+                    "g": "IN",
+                    "l": "-í",
+                    "p": "nom:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "tʼúrab",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "tʼ",
+                    "g": "рвать",
+                    "l": "tʼ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-úra",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "telʲ",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "telʲ",
+                    "g": "провод",
+                    "l": "telʲ",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "stalbádasa",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "stalb",
+                    "g": "столб[R]",
+                    "l": "stalb",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-á",
+                    "g": "OBL",
+                    "l": "-o",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-da",
+                    "g": "LOC",
+                    "l": "-da",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-sa",
+                    "g": "EL",
+                    "l": "-sa",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "kʼátsa",
+              "p": "adv",
+              "a": [
+                [
+                  {
+                    "f": "kʼát",
+                    "g": "сверху",
+                    "l": "kʼád",
+                    "p": "adv",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-abe1e6b4eb0379979a"
+                  },
+                  {
+                    "f": "-sa",
+                    "g": "EL",
+                    "l": "-sa",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "bórtarab",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "órt",
+                    "g": "падать",
+                    "l": "órt",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ara",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "На дороге мы нашли порванный провод, который упал сверху со столба.",
+          "translationLang": "ru",
+          "s": "kánsi buzi lérukʼun , nižéda bátə núħi tʼúrab telʲ , stalbádasa kʼátsa bórtarab ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-5",
+          "n": "5",
+          "w": [
+            {
+              "f": "heb",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "he",
+                    "g": "этот2",
+                    "l": "he",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "stalbádi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "stalb",
+                    "g": "столб[R]",
+                    "l": "stalb",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-á",
+                    "g": "ESS",
+                    "l": "-á",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-d",
+                    "g": "LOC",
+                    "l": "-da",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-i",
+                    "g": "LAT",
+                    "l": "-i",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "kʼádi",
+              "p": "adv",
+              "a": [
+                [
+                  {
+                    "f": "kʼád",
+                    "g": "сверху",
+                    "l": "kʼád",
+                    "p": "adv",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-abe1e6b4eb0379979a"
+                  },
+                  {
+                    "f": "-i",
+                    "g": "LAT",
+                    "l": "-i",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "wáχsi",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "w-",
+                    "g": "M",
+                    "l": "w-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "áχ",
+                    "g": "подниматься",
+                    "l": "áχ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "2",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-si",
+                    "g": "INF",
+                    "l": "-zi",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "gar",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "g",
+                    "g": "оказаться",
+                    "l": "g",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ar",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dun",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "dun",
+                    "g": "я",
+                    "l": "dun",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-e43b908b2735c8ac2f"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Пришлось мне подниматься на столб.",
+          "translationLang": "ru",
+          "s": "heb stalbádi kʼádi wáχsi gar dun ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-6",
+          "n": "6",
+          "w": [
+            {
+              "f": "hab",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "ha",
+                    "g": "этот1",
+                    "l": "ʁa",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "telʲ",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "telʲ",
+                    "g": "провод",
+                    "l": "telʲ",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dažó",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "dažó",
+                    "g": "this_thing",
+                    "l": "dažó",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "bunukʼun",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "u",
+                    "g": "делать",
+                    "l": "u",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "2",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-nu",
+                    "g": "IPFV",
+                    "l": "-na",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-kʼun",
+                    "g": "-CVB1",
+                    "l": "-gun",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "bəčá",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "əč",
+                    "g": "пускать",
+                    "l": "əč",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-á",
+                    "g": "AOR",
+                    "l": "-á",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "béhur",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "éh",
+                    "g": "стать",
+                    "l": "éh",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ur",
+                    "g": "AOR",
+                    "l": "-á",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "kánsi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "kánsi",
+                    "g": "свет",
+                    "l": "kánsi",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "tok",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "tok",
+                    "g": "ток[R]",
+                    "l": "tok",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Когда мы провод это самое делали, дали свет, ток.",
+          "translationLang": "ru",
+          "s": "hab telʲ dažó bunukʼun , bəčá béhur kánsi , tok ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-7",
+          "n": "7",
+          "w": [
+            {
+              "f": "ha",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "ha",
+                    "g": "этот1",
+                    "l": "ʁa",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "tókud",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "tók",
+                    "g": "ток[R]",
+                    "l": "tok",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "OBL",
+                    "l": "-o",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-d",
+                    "g": "ERG",
+                    "l": "-d",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dun",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "dun",
+                    "g": "я",
+                    "l": "dun",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-e43b908b2735c8ac2f"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "xʷáʕuraw",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "xʷáʕ",
+                    "g": "отбрасывать",
+                    "l": "xʷáʕ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ura",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-w",
+                    "g": "M",
+                    "l": "-w",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Этот ток меня откинул.",
+          "translationLang": "ru",
+          "s": "ha tókud dun xʷáʕuraw ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-8",
+          "n": "8",
+          "w": [
+            {
+              "f": "nu",
+              "p": "ptcl",
+              "a": [
+                [
+                  {
+                    "f": "nu",
+                    "g": "ну[R]",
+                    "l": "nu",
+                    "p": "ptcl",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "...",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "hiӡ̌égi",
+              "p": "ptcl",
+              "a": [
+                [
+                  {
+                    "f": "hiӡ̌é",
+                    "g": "сейчас",
+                    "l": "hinǯé",
+                    "p": "adv",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "alláhəs",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "alláh",
+                    "g": "Аллах",
+                    "l": "alláh",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-55496e1eeccfc8907d"
+                  },
+                  {
+                    "f": "-əs",
+                    "g": "OBL(ERG)",
+                    "l": "-as",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "xíxu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "xíx",
+                    "g": "содержать",
+                    "l": "xíx",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "wátəna",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "w-",
+                    "g": "M",
+                    "l": "w-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "át",
+                    "g": "находить",
+                    "l": "át",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-əna",
+                    "g": "IPFV",
+                    "l": "-na",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "sáʁda",
+              "p": "adv",
+              "a": [
+                [
+                  {
+                    "f": "sáʁ",
+                    "g": "здоровый",
+                    "l": "sáʁ",
+                    "p": "adj",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-da",
+                    "g": "ADV",
+                    "l": "-da",
+                    "p": "nom>adv",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "χútʼur",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "χútʼ",
+                    "g": "оставаться",
+                    "l": "χútʼ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ur",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dun",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "dun",
+                    "g": "я",
+                    "l": "dun",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-e43b908b2735c8ac2f"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Но Аллах уберёг меня, видимо, я живым остался.",
+          "translationLang": "ru",
+          "s": "nu ... hiӡ̌égi alláhəs xíxu wátəna , sáʁda χútʼur dun ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-9",
+          "n": "9",
+          "w": [
+            {
+              "f": "dab",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "da",
+                    "g": "тот",
+                    "l": "da",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-9cd74188970c232a45"
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dánu",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "dá",
+                    "g": "тот",
+                    "l": "da",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-nu",
+                    "g": "MNR",
+                    "l": "-nu",
+                    "p": "pro>adv",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "tókgi",
+              "p": "",
+              "a": [
+                [
+                  {
+                    "f": "tók",
+                    "g": "ток[R]",
+                    "l": "tok",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "rušʼólu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "rušʼó",
+                    "g": "стрелять",
+                    "l": "rušʼó",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-lu",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "...",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Током меня ударило.",
+          "translationLang": "ru",
+          "s": "dab dánu tókgi rušʼólu ..."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-10",
+          "n": "10",
+          "w": [
+            {
+              "f": "náqə",
+              "p": "adv",
+              "a": [
+                [
+                  {
+                    "f": "náq",
+                    "g": "сзади",
+                    "l": "náχa",
+                    "p": "adv",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-42286048df91696bc8"
+                  },
+                  {
+                    "f": "-ə",
+                    "g": "LAT",
+                    "l": "-i",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "wéru",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "w-",
+                    "g": "M",
+                    "l": "w-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "é",
+                    "g": "приходить",
+                    "l": "éh",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ru",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dun",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "dun",
+                    "g": "я",
+                    "l": "dun",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-e43b908b2735c8ac2f"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "rajónudi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "rajón",
+                    "g": "район[R]",
+                    "l": "rajón",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "OBL",
+                    "l": "-o",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-d",
+                    "g": "LOC",
+                    "l": "-da",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-i",
+                    "g": "LAT",
+                    "l": "-i",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Я обратно возвратился в район.",
+          "translationLang": "ru",
+          "s": "náqə wéru dun rajónudi ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-11",
+          "n": "11",
+          "w": [
+            {
+              "f": "co",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "co",
+                    "g": "один",
+                    "l": "co",
+                    "p": "num",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-34d50f77e9a33afe2d"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "bužmárəstin",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "bužmár",
+                    "g": "пятница",
+                    "l": "bužmár",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=əstin",
+                    "g": "=TERM",
+                    "l": "=əstin",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "šʷa",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "šʷ",
+                    "g": "достигать",
+                    "l": "šʷé",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-a",
+                    "g": "AOR",
+                    "l": "-á",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "náqe",
+              "p": "adv",
+              "a": [
+                [
+                  {
+                    "f": "náq",
+                    "g": "сзади",
+                    "l": "náχa",
+                    "p": "adv",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-42286048df91696bc8"
+                  },
+                  {
+                    "f": "-e",
+                    "g": "LAT",
+                    "l": "-i",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "riqʼéli",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "riqʼ",
+                    "g": "дом",
+                    "l": "roqʼ",
+                    "p": "noun",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-é",
+                    "g": "IN",
+                    "l": "-í",
+                    "p": "nom:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-l",
+                    "g": "PL",
+                    "l": "-l",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-i",
+                    "g": "LAT",
+                    "l": "-i",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "niž",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "niž",
+                    "g": "мы",
+                    "l": "niž",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-f33d381d84a23cb10b"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "В пятницу мы обратно добрались домой.",
+          "translationLang": "ru",
+          "s": "co bužmárəstin šʷa náqe riqʼéli niž ."
+        },
+        {
+          "id": "5649a1a5-562c-4fed-9e26-64cbb69a41b2-12",
+          "n": "12",
+          "w": [
+            {
+              "f": "aháwilʲa",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "a-",
+                    "g": "EMPH",
+                    "l": "a-",
+                    "p": "pro>pro",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "há",
+                    "g": "этот1",
+                    "l": "ʁa",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-wilʲa",
+                    "g": "?",
+                    "l": "",
+                    "p": "",
+                    "type": "",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "nužóda",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "nuž",
+                    "g": "вы",
+                    "l": "nuž",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-f0d4b76be9158e4a2e"
+                  },
+                  {
+                    "f": "-ó",
+                    "g": "OBL",
+                    "l": "-o",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-da",
+                    "g": "LOC",
+                    "l": "-da",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "wéxunu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "w-",
+                    "g": "M",
+                    "l": "w-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "éx",
+                    "g": "видеть",
+                    "l": "éx",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-unu",
+                    "g": "IPFV",
+                    "l": "-na",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "hinǯégi",
+              "p": "",
+              "a": [
+                [
+                  {
+                    "f": "hinǯé",
+                    "g": "сейчас",
+                    "l": "hinǯé",
+                    "p": "adv",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "saχsalamácə",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "saχsalamácə",
+                    "g": "благополучный.ABSTR",
+                    "l": "saχsalamácə",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dáni",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "dá",
+                    "g": "тот",
+                    "l": "da",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ni",
+                    "g": "MNR",
+                    "l": "-nu",
+                    "p": "pro>adv",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "tok",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "tok",
+                    "g": "ток[R]",
+                    "l": "tok",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "réšʼerəw",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "réšʼe",
+                    "g": "стрелять",
+                    "l": "rušʼó",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-rə",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-w",
+                    "g": "M",
+                    "l": "-w",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "adám",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "adám",
+                    "g": "человек",
+                    "l": "ʕadám",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-48ca94827f43f169b4"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "И вот вы меня сейчас видите, живого и здорового, человека, которого ударило током.",
+          "translationLang": "ru",
+          "s": "aháwilʲa nužóda wéxunu hinǯégi , saχsalamácə dáni , tok réšʼerəw adám ."
+        }
+      ]
+    },
+    {
+      "id": "a01bc385-db60-4255-a01d-9611a82108ae",
+      "title": "kus_2026_zuhr_1962_text_Kistaman_2",
+      "sentences": [
+        {
+          "id": "a01bc385-db60-4255-a01d-9611a82108ae-1",
+          "n": "1",
+          "w": [
+            {
+              "f": "nižé",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "niž",
+                    "g": "мы",
+                    "l": "niž",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-f33d381d84a23cb10b"
+                  },
+                  {
+                    "f": "-é",
+                    "g": "OBL(GEN)",
+                    "l": "-é",
+                    "p": "pro:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "rósnusa",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "rós",
+                    "g": "село",
+                    "l": "rósu",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-7b684cce0b45a20440"
+                  },
+                  {
+                    "f": "-nu",
+                    "g": "IN",
+                    "l": "-nu",
+                    "p": "nom:Any",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-sa",
+                    "g": "EL",
+                    "l": "-sa",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dárχi",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "dár",
+                    "g": "долина",
+                    "l": "dár",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-χ",
+                    "g": "APUD",
+                    "l": "-χ",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-i",
+                    "g": "LAT",
+                    "l": "-i",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "ʁórsʼe",
+              "p": "adj",
+              "a": [
+                [
+                  {
+                    "f": "ʁórsʼe",
+                    "g": "нижний",
+                    "l": "ʁórsʼe",
+                    "p": "adj",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "ħúbluzuχsə",
+              "p": "adj",
+              "a": [
+                [
+                  {
+                    "f": "ħúb",
+                    "g": "могила",
+                    "l": "ħúb",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-l",
+                    "g": "PL",
+                    "l": "-l",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-uz",
+                    "g": "OBL.PL",
+                    "l": "-az",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-uχ",
+                    "g": "APUD",
+                    "l": "-χ",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-sə",
+                    "g": "EL",
+                    "l": "-sa",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "šʷánizuχ",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "šʷ",
+                    "g": "достигать",
+                    "l": "šʷé",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-áni",
+                    "g": "PTCP.IPFV",
+                    "l": "-ni",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-z",
+                    "g": "OBL.PL",
+                    "l": "-az",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-uχ",
+                    "g": "APUD",
+                    "l": "-χ",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "búgu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "úgu",
+                    "g": "COP",
+                    "l": "úgu",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "bakʼ",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "bakʼ",
+                    "g": "место",
+                    "l": "bakʼ",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-8fdd0487463e23f8c1"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "ʁórsʼe",
+              "p": "adj",
+              "a": [
+                [
+                  {
+                    "f": "ʁórsʼe",
+                    "g": "нижний",
+                    "l": "ʁórsʼe",
+                    "p": "adj",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "ħúbluzkʼəsə",
+              "p": "adj",
+              "a": [
+                [
+                  {
+                    "f": "ħúb",
+                    "g": "могила",
+                    "l": "ħúb",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-l",
+                    "g": "PL",
+                    "l": "-l",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-uz",
+                    "g": "OBL.PL",
+                    "l": "-az",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-kʼə",
+                    "g": "SUP",
+                    "l": "-kʼa",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-sə",
+                    "g": "EL",
+                    "l": "-sa",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "biχé",
+              "p": "adv",
+              "a": [
+                [
+                  {
+                    "f": "biχé",
+                    "g": "вниз",
+                    "l": "biχé",
+                    "p": "adv",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "búgu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "úgu",
+                    "g": "COP",
+                    "l": "úgu",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "bakʼ",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "bakʼ",
+                    "g": "место",
+                    "l": "bakʼ",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-8fdd0487463e23f8c1"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ":",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "«",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "qʼístama",
+              "p": "pn",
+              "a": [
+                [
+                  {
+                    "f": "qʼístama",
+                    "g": "Кистаман",
+                    "l": "qʼístaman",
+                    "p": "pn",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "...",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "qʼístaman",
+              "p": "pn",
+              "a": [
+                [
+                  {
+                    "f": "qʼístaman",
+                    "g": "Кистаман",
+                    "l": "qʼístaman",
+                    "p": "pn",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "jéχur",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "j-",
+                    "g": "F",
+                    "l": "j-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "éχ",
+                    "g": "бросать",
+                    "l": "éχ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ur",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "bakʼ",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "bakʼ",
+                    "g": "место",
+                    "l": "bakʼ",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-8fdd0487463e23f8c1"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "»",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "—",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "ábni",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "áb",
+                    "g": "сказать",
+                    "l": "áb",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ni",
+                    "g": "PTCP.IPFV",
+                    "l": "-ni",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dəskʼé",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "d",
+                    "g": "тот",
+                    "l": "da",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-əs",
+                    "g": "OBL",
+                    "l": "-as",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-kʼ",
+                    "g": "SUP",
+                    "l": "-kʼa",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-é",
+                    "g": "LAT",
+                    "l": "-i",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "От нашего села дальше, не доходя до нижних кладбищ есть место, внизу есть место, которое называют: «Там где скинули Кистаман».",
+          "translationLang": "ru",
+          "s": "nižé rósnusa dárχi , ʁórsʼe ħúbluzuχsə šʷánizuχ , búgu bakʼ ʁórsʼe ħúbluzkʼəsə , biχé búgu bakʼ : « qʼístama ... qʼístaman jéχur bakʼ » — ábni dəskʼé ."
+        },
+        {
+          "id": "a01bc385-db60-4255-a01d-9611a82108ae-2",
+          "n": "2",
+          "w": [
+            {
+              "f": "cʼebégu",
+              "p": "ptcl",
+              "a": [
+                [
+                  {
+                    "f": "cʼe<b>é",
+                    "g": "давно<N>",
+                    "l": "cʼe<b>é",
+                    "p": "adv",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=gu",
+                    "g": "=EMPH",
+                    "l": "=gu",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "umúmuzu",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "umúm",
+                    "g": "отец.PL",
+                    "l": "umúm",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-uz",
+                    "g": "OBL.PL",
+                    "l": "-az",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "GEN",
+                    "l": "-úl",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "méχas",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "méχ",
+                    "g": "время",
+                    "l": "méχ",
+                    "p": "noun",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-4864c69a37abae4bd2"
+                  },
+                  {
+                    "f": "-as",
+                    "g": "OBL(ERG)",
+                    "l": "-as",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "kʼígu",
+              "p": "num",
+              "a": [
+                [
+                  {
+                    "f": "kʼí",
+                    "g": "два",
+                    "l": "kʼí",
+                    "p": "num",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-b3c37ca61898e4447f"
+                  },
+                  {
+                    "f": "-gu",
+                    "g": "CARD",
+                    "l": "-gu",
+                    "p": "num:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "wácas",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "wác",
+                    "g": "брат",
+                    "l": "wác",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-as",
+                    "g": "OBL(ERG)",
+                    "l": "-as",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "jac",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "jac",
+                    "g": "сестра",
+                    "l": "jac",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-66ec129f63881ef517"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dijáca",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "di<j>á",
+                    "g": "там<F>",
+                    "l": "di<j>á",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ca",
+                    "g": "EL",
+                    "l": "-sa",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "xʷáʕə",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "xʷáʕ",
+                    "g": "махать",
+                    "l": "xʷáʕ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ə",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "jára",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "j-",
+                    "g": "F",
+                    "l": "j-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "á",
+                    "g": "быть",
+                    "l": "áʕ",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ra",
+                    "g": "PFV",
+                    "l": "-ra",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Когда-то давно два брата сестру оттуда скинули.",
+          "translationLang": "ru",
+          "s": "cʼebégu umúmuzu méχas kʼígu wácas jac dijáca xʷáʕə jára ."
+        },
+        {
+          "id": "a01bc385-db60-4255-a01d-9611a82108ae-3",
+          "n": "3",
+          "w": [
+            {
+              "f": "jétʼu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "j-",
+                    "g": "F",
+                    "l": "j-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "étʼ",
+                    "g": "обманывать",
+                    "l": "étʼ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "tʼámutu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "tʼám",
+                    "g": "загонять",
+                    "l": "tʼám",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-tu",
+                    "g": "ANTER",
+                    "l": "-tu",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "jakʼáru",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "j-",
+                    "g": "F",
+                    "l": "j-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "akʼár",
+                    "g": "приводить",
+                    "l": "akʼár",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "jaʕá",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "j-",
+                    "g": "F",
+                    "l": "j-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "aʕ",
+                    "g": "быть",
+                    "l": "áʕ",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-á",
+                    "g": "AOR",
+                    "l": "-á",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "2",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "prósto",
+              "p": "ptcl",
+              "a": [
+                [
+                  {
+                    "f": "prósto",
+                    "g": "просто[R]",
+                    "l": "prósto",
+                    "p": "ptcl",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "haj",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "ha",
+                    "g": "этот1",
+                    "l": "ʁa",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-j",
+                    "g": "F",
+                    "l": "-j",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "gumámbe",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "gumám",
+                    "g": "беременность",
+                    "l": "gumám",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=be",
+                    "g": "=N.стать.CVB.PFV",
+                    "l": "=be",
+                    "p": "verb",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "búgu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "úgu",
+                    "g": "COP",
+                    "l": "úgu",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "húsul",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "h",
+                    "g": "этот2",
+                    "l": "he",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ús",
+                    "g": "OBL",
+                    "l": "-as",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ul",
+                    "g": "GEN",
+                    "l": "-úl",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "bétin",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "bétin",
+                    "g": "свадьба",
+                    "l": "bétin",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "búčʼugun",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "ú",
+                    "g": "делать",
+                    "l": "hu",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-čʼu",
+                    "g": "AOR.NEG",
+                    "l": "-čʼu",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-gun",
+                    "g": "-CVB1",
+                    "l": "-gun",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "ha",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "ha",
+                    "g": "этот1",
+                    "l": "ʁa",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "pozór",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "pozór",
+                    "g": "позор[R]",
+                    "l": "pozór",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "báču",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "áč",
+                    "g": "вести",
+                    "l": "áč",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "ʕólu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "ʕó",
+                    "g": "мочь",
+                    "l": "ʕó",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-lu",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "gútʼu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "gútʼ",
+                    "g": "не_быть",
+                    "l": "gútʼ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ".",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Обманным путем они заманили ее в это место, потому что она была беременна до свадьбы, а этот позор они не могли вынести.",
+          "translationLang": "ru",
+          "s": "jétʼu tʼámutu jakʼáru jaʕá , prósto haj , gumámbe búgu húsul bétin búčʼugun , ha pozór báču ʕólu gútʼu ."
+        },
+        {
+          "id": "a01bc385-db60-4255-a01d-9611a82108ae-4",
+          "n": "4",
+          "w": [
+            {
+              "f": "hab",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "ha",
+                    "g": "этот1",
+                    "l": "ʁa",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "šːib",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "šːi",
+                    "g": "что",
+                    "l": "šːi",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "ʕo",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "ʕo",
+                    "g": "мочь",
+                    "l": "ʕó",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "...",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "báču",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "b-",
+                    "g": "N",
+                    "l": "b-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "áč",
+                    "g": "вести",
+                    "l": "áč",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "ʕólu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "ʕó",
+                    "g": "мочь",
+                    "l": "ʕó",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-lu",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "gútʼun",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "gútʼ",
+                    "g": "не_быть",
+                    "l": "gútʼ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-un",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "jas",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "jas",
+                    "g": "девочка",
+                    "l": "jas",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-665204e2dc4a711ad7"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "sikʼ",
+              "p": "adj",
+              "a": [
+                [
+                  {
+                    "f": "sikʼ",
+                    "g": "хороший",
+                    "l": "sikʼ",
+                    "p": "adj",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "jácgi",
+              "p": "",
+              "a": [
+                [
+                  {
+                    "f": "jác",
+                    "g": "сестра",
+                    "l": "jac",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-66ec129f63881ef517"
+                  },
+                  {
+                    "f": "=gi",
+                    "g": "=ADD",
+                    "l": "=gi",
+                    "p": "ptcl",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "jakʼáru",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "j-",
+                    "g": "F",
+                    "l": "j-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "akʼár",
+                    "g": "приводить",
+                    "l": "akʼár",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "únutu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "ún",
+                    "g": "идти",
+                    "l": "ín",
+                    "p": "verb",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-tu",
+                    "g": "ANTER",
+                    "l": "-tu",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "dijácu",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "di<j>á",
+                    "g": "там<F>",
+                    "l": "di<j>á",
+                    "p": "pro",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-cu",
+                    "g": "EL",
+                    "l": "-sa",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "jórtlu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "j-",
+                    "g": "F",
+                    "l": "j-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "órt",
+                    "g": "падать",
+                    "l": "órt",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-lu",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "dəstá",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "d",
+                    "g": "тот",
+                    "l": "da",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-əs",
+                    "g": "OBL",
+                    "l": "-as",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-tá",
+                    "g": "LOC",
+                    "l": "-da",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "naχé",
+              "p": "adv",
+              "a": [
+                [
+                  {
+                    "f": "naχ",
+                    "g": "сзади",
+                    "l": "náχa",
+                    "p": "adv",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-42286048df91696bc8"
+                  },
+                  {
+                    "f": "-é",
+                    "g": "LAT",
+                    "l": "-i",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "1",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": ",",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "dab",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "da",
+                    "g": "тот",
+                    "l": "da",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": "kus-9cd74188970c232a45"
+                  },
+                  {
+                    "f": "-b",
+                    "g": "N",
+                    "l": "-b",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "dusúl",
+              "p": "pro",
+              "a": [
+                [
+                  {
+                    "f": "d",
+                    "g": "тот",
+                    "l": "da",
+                    "p": "pro",
+                    "type": "root",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-us",
+                    "g": "OBL",
+                    "l": "-as",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-úl",
+                    "g": "GEN",
+                    "l": "-úl",
+                    "p": "Inflects any category",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "sʼar",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "sʼar",
+                    "g": "имя",
+                    "l": "sʼar",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-8905976138fcd51648"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "χútʼubu",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "χútʼ",
+                    "g": "оставаться",
+                    "l": "χútʼ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-u",
+                    "g": "CVB.PFV",
+                    "l": "-u",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "=bu",
+                    "g": "=N.COP",
+                    "l": "=bu",
+                    "p": "aux",
+                    "type": "enclitic",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "«",
+              "p": "",
+              "a": [],
+              "punct": true
+            },
+            {
+              "f": "qʼíšːtaman",
+              "p": "pn",
+              "a": [
+                [
+                  {
+                    "f": "qʼíšːtaman",
+                    "g": "Кистаман",
+                    "l": "qʼístaman",
+                    "p": "pn",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "jéχur",
+              "p": "verb",
+              "a": [
+                [
+                  {
+                    "f": "j-",
+                    "g": "F",
+                    "l": "j-",
+                    "p": "Inflects any category",
+                    "type": "prefix",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "éχ",
+                    "g": "бросать",
+                    "l": "éχ",
+                    "p": "verb",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": ""
+                  },
+                  {
+                    "f": "-ur",
+                    "g": "PTCP.PFV",
+                    "l": "-ura",
+                    "p": "verb:Any",
+                    "type": "suffix",
+                    "homograph": "",
+                    "entry": ""
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "bakʼ",
+              "p": "noun",
+              "a": [
+                [
+                  {
+                    "f": "bakʼ",
+                    "g": "место",
+                    "l": "bakʼ",
+                    "p": "noun",
+                    "type": "stem",
+                    "homograph": "",
+                    "entry": "kus-8fdd0487463e23f8c1"
+                  }
+                ]
+              ],
+              "punct": false
+            },
+            {
+              "f": "».",
+              "p": "",
+              "a": [],
+              "punct": true
+            }
+          ],
+          "r": "Этого они не смогли перенести, и сестру повели туда, оттуда она упала, после этого это место так и называется: «там, где Кистаман скинули».",
+          "translationLang": "ru",
+          "s": "hab šːib ʕo ... báču ʕólu gútʼun , jas sikʼ jácgi jakʼáru únutu , dijácu jórtlu , dəstá naχé , dab dusúl sʼar χútʼubu « qʼíšːtaman jéχur bakʼ »."
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "texts": 2,
+    "sentences": 16,
+    "missing_translation": 0,
+    "words": 165,
+    "missing_word_form": 0,
+    "missing_pos": 9,
+    "words_without_analysis": 0,
+    "morphemes": 355,
+    "missing_morph_form": 0,
+    "missing_gloss": 2,
+    "missing_lemma": 2
+  },
+  "examples": {
+    "kus-34d50f77e9a33afe2d": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-11",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3"
+    ],
+    "kus-42286048df91696bc8": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-10",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-11",
+      "a01bc385-db60-4255-a01d-9611a82108ae-4"
+    ],
+    "kus-4864c69a37abae4bd2": [
+      "a01bc385-db60-4255-a01d-9611a82108ae-2"
+    ],
+    "kus-48ca94827f43f169b4": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-12"
+    ],
+    "kus-4b3097eee594d894c7": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3"
+    ],
+    "kus-55496e1eeccfc8907d": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-8"
+    ],
+    "kus-558e76a4ab20115a97": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-1"
+    ],
+    "kus-64e5be3d2edb083d95": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3"
+    ],
+    "kus-665204e2dc4a711ad7": [
+      "a01bc385-db60-4255-a01d-9611a82108ae-4"
+    ],
+    "kus-66ec129f63881ef517": [
+      "a01bc385-db60-4255-a01d-9611a82108ae-2",
+      "a01bc385-db60-4255-a01d-9611a82108ae-4"
+    ],
+    "kus-7b684cce0b45a20440": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3",
+      "a01bc385-db60-4255-a01d-9611a82108ae-1"
+    ],
+    "kus-8905976138fcd51648": [
+      "a01bc385-db60-4255-a01d-9611a82108ae-4"
+    ],
+    "kus-8fdd0487463e23f8c1": [
+      "a01bc385-db60-4255-a01d-9611a82108ae-1",
+      "a01bc385-db60-4255-a01d-9611a82108ae-4"
+    ],
+    "kus-99f0a19cc25c6f52b2": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3"
+    ],
+    "kus-9cd74188970c232a45": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-9",
+      "a01bc385-db60-4255-a01d-9611a82108ae-4"
+    ],
+    "kus-abe1e6b4eb0379979a": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-4",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-5"
+    ],
+    "kus-b3c37ca61898e4447f": [
+      "a01bc385-db60-4255-a01d-9611a82108ae-2"
+    ],
+    "kus-d716b0f90fd471c546": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-4"
+    ],
+    "kus-d8def578493583dd17": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3"
+    ],
+    "kus-e43b908b2735c8ac2f": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-10",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-5",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-7",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-8"
+    ],
+    "kus-f0d4b76be9158e4a2e": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-12"
+    ],
+    "kus-f33d381d84a23cb10b": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-11",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-2",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3",
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-4",
+      "a01bc385-db60-4255-a01d-9611a82108ae-1"
+    ],
+    "kus-f8fb5b95f2430caac2": [
+      "5649a1a5-562c-4fed-9e26-64cbb69a41b2-3"
+    ]
+  },
+  "glossary": [
+    {
+      "глосса": "ADD",
+      "пояснение": ""
+    },
+    {
+      "глосса": "ADV",
+      "пояснение": ""
+    },
+    {
+      "глосса": "ANTER",
+      "пояснение": ""
+    },
+    {
+      "глосса": "AOR",
+      "пояснение": ""
+    },
+    {
+      "глосса": "AOR.NEG",
+      "пояснение": ""
+    },
+    {
+      "глосса": "APUD",
+      "пояснение": ""
+    },
+    {
+      "глосса": "CARD",
+      "пояснение": ""
+    },
+    {
+      "глосса": "COP",
+      "пояснение": ""
+    },
+    {
+      "глосса": "COP.NEG",
+      "пояснение": ""
+    },
+    {
+      "глосса": "CVB.PFV",
+      "пояснение": ""
+    },
+    {
+      "глосса": "CVB1",
+      "пояснение": ""
+    },
+    {
+      "глосса": "EL",
+      "пояснение": ""
+    },
+    {
+      "глосса": "EMPH",
+      "пояснение": ""
+    },
+    {
+      "глосса": "ERG",
+      "пояснение": ""
+    },
+    {
+      "глосса": "ESS",
+      "пояснение": ""
+    },
+    {
+      "глосса": "EXIST.NEG",
+      "пояснение": ""
+    },
+    {
+      "глосса": "F",
+      "пояснение": ""
+    },
+    {
+      "глосса": "GEN",
+      "пояснение": ""
+    },
+    {
+      "глосса": "IN",
+      "пояснение": ""
+    },
+    {
+      "глосса": "INF",
+      "пояснение": ""
+    },
+    {
+      "глосса": "IPFV",
+      "пояснение": ""
+    },
+    {
+      "глосса": "LAT",
+      "пояснение": ""
+    },
+    {
+      "глосса": "LOC",
+      "пояснение": ""
+    },
+    {
+      "глосса": "M",
+      "пояснение": ""
+    },
+    {
+      "глосса": "MNR",
+      "пояснение": ""
+    },
+    {
+      "глосса": "N",
+      "пояснение": ""
+    },
+    {
+      "глосса": "N.COP",
+      "пояснение": ""
+    },
+    {
+      "глосса": "N.стать.CVB.PFV",
+      "пояснение": ""
+    },
+    {
+      "глосса": "OBL",
+      "пояснение": ""
+    },
+    {
+      "глосса": "OBL(ERG)",
+      "пояснение": ""
+    },
+    {
+      "глосса": "OBL(GEN)",
+      "пояснение": ""
+    },
+    {
+      "глосса": "OBL.PL",
+      "пояснение": ""
+    },
+    {
+      "глосса": "ORD",
+      "пояснение": ""
+    },
+    {
+      "глосса": "PFV",
+      "пояснение": ""
+    },
+    {
+      "глосса": "PL",
+      "пояснение": ""
+    },
+    {
+      "глосса": "PL.быть",
+      "пояснение": ""
+    },
+    {
+      "глосса": "PTCP.IPFV",
+      "пояснение": ""
+    },
+    {
+      "глосса": "PTCP.PFV",
+      "пояснение": ""
+    },
+    {
+      "глосса": "SUP",
+      "пояснение": ""
+    },
+    {
+      "глосса": "TEEN",
+      "пояснение": ""
+    },
+    {
+      "глосса": "TERM",
+      "пояснение": ""
+    }
+  ],
+  "build": "15f5e83e9082505cda57"
+}

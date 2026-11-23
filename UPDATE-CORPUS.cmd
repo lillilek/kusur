@@ -1,4 +1,4 @@
 @echo off
 cd /d "%~dp0"
-python tools\import_flex.py --pick
+python -X utf8 tools\build_static_corpus.py
 if errorlevel 1 pause

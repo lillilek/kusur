@@ -2,11 +2,12 @@
 
 Сайт: https://lillilek.github.io/kusur/
 
-Словарь и транскрипции работают на GitHub Pages. Глоссированный корпус подготовлен для отдельного сервера **Tsakorpus + Elasticsearch**.
+Словарь, транскрипции, глоссированный корпус и глоссарий работают статически на GitHub Pages. Сервер поиска и Docker для новой версии не нужны.
 
-- [Обновление, размещение и оставшиеся задачи](docs/CORPUS.md)
-- Windows: `UPDATE-CORPUS.cmd` → выбрать новые XML FieldWorks.
-- Сервер: `git pull --ff-only`, затем `sh deploy/update.sh`.
-- После запуска: указать HTTPS-адрес поиска в `data/corpus-endpoint.json`.
+- [Обновление статического корпуса и публикация](docs/STATIC-CORPUS.md).
+- Исходники: один или несколько XML/FLExText в `.private/texts/`; каждый может содержать несколько текстов.
+- Сборка: `python -X utf8 tools/build_static_corpus.py` или `UPDATE-CORPUS.cmd`.
+- Просмотр: `python -X utf8 tools/preview_static.py`, затем http://127.0.0.1:8767/corpus.html.
+- Ручные связи: `data/corpus-links.csv`; пояснения глосс: `data/glossary.csv`.
 
-Пока сервер не выбран, страница «Корпус» показывает статус подготовки.
+Предыдущий комплект Tsakorpus сохранён в `deploy/`, `tsakorpus/`, `tools/import_flex.py`; [его инструкция](docs/CORPUS.md) относится к серверной версии. Статический `corpus.html` его не использует. Для локального просмотра новой версии используйте `OPEN-STATIC-CORPUS.cmd`.

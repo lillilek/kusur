@@ -1,0 +1,58 @@
+{
+  "files": [
+    {
+      "file": "kusurtexts.xml",
+      "sha256": "de528cc6966002cae2b080956bba2477d27a449e667925523d199614b177c831",
+      "counts": {
+        "morphemes": 355,
+        "missing_morph_form": 0,
+        "missing_gloss": 2,
+        "missing_lemma": 2,
+        "words": 165,
+        "missing_word_form": 0,
+        "missing_pos": 9,
+        "words_without_analysis": 0,
+        "missing_translation": 0,
+        "russian_translation_other_label": 0,
+        "sentences": 16,
+        "texts": 2
+      },
+      "languageLabels": {
+        "title:av": 2,
+        "title:ru": 2,
+        "date-created:ru": 2,
+        "date-modified:ru": 2,
+        "txt:av": 520,
+        "pos:en": 156,
+        "cf:av": 353,
+        "gls:ru": 471,
+        "msa:en": 351,
+        "hn:av": 52,
+        "variantTypes:ru": 22,
+        "msa:ru": 2,
+        "punct:av": 46,
+        "segnum:en": 16,
+        "note:ru": 14,
+        "note:en": 1,
+        "note:av": 1
+      },
+      "duplicates": 0
+    }
+  ],
+  "total": {
+    "texts": 2,
+    "sentences": 16,
+    "missing_translation": 0,
+    "words": 165,
+    "missing_word_form": 0,
+    "missing_pos": 9,
+    "words_without_analysis": 0,
+    "morphemes": 355,
+    "missing_morph_form": 0,
+    "missing_gloss": 2,
+    "missing_lemma": 2
+  },
+  "linked_entries": 23,
+  "unresolved_lemmas": 74,
+  "build": "15f5e83e9082505cda57"
+}
